@@ -31,9 +31,9 @@ Feature Transformation is the process of modifying or converting existing featur
 - Normalization & Scaling: Normalization scales each data sample such that its vector length is 1. 
 - Standardization: Standardization centers features by subtracting the mean and scales them by dividing by the standard deviation, transforming features to have zero mean and unit variance.
 - Encoding: Encoding transforms non-numerical categorical data into numerical forms so ML models can understand them. Types of encoding:
--- Label Encoding: Assigns each category an integer value
--- One-Hot Encoding: Creates a new binary column for each category
--- Ordinal Encoding: Assigns values based on meaningful order
+a) Label Encoding: Assigns each category an integer value
+b) One-Hot Encoding: Creates a new binary column for each category
+c) Ordinal Encoding: Assigns values based on meaningful order
 - Mathematical Transformations: These transformations modify the distribution of data to remove skewness or improve linearity. These include Log Transformation, Square-Root Transformation, Binning, etc.
 
 
