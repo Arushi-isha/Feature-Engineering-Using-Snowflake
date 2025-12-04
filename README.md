@@ -37,6 +37,25 @@ c) Ordinal Encoding: Assigns values based on meaningful order
 - Mathematical Transformations: These transformations modify the distribution of data to remove skewness or improve linearity. These include Log Transformation, Square-Root Transformation, Binning, etc.
 
 
+## Feature Extraction
+Feature Extraction is the process of reducing raw data into a smaller set of informative, meaningful features. Instead of working with the original high-dimensional data, the most important characteristics are extracted that help the machine learning model learn efficiently.
+- Dimensionality reduction: Dimensionality reduction techniques compress high-dimensional data into fewer features while retaining the most important patterns Techniques like PCA, LDA reduce features while preserving important information.
+- Aggregation & Combination: Aggregation methods create simpler, higher-level features by combining multiple raw features.
+
+## Feature Selection
+Feature Selection is the process of choosing a subset of the most relevant features from the dataset.Its goal is to remove irrelevant, redundant, or noisy features to improve model accuracy, reduce overfitting, and speed up computation. It does not create new features, it only selects the best ones.
+- Filter methods: Based on statistical measures like correlation.
+- Wrapper methods: Select based on model performance.
+- Embedded methods: Feature selection integrated within model training.
+
+## Feature Scaling
+Feature Scaling is the process of transforming numerical features so they share a similar range or distribution. It ensures that no feature dominates others due to larger magnitude, which helps models converge faster and perform better especially distance-based models like KNN, SVM, and gradient descent-based algorithms.
+- Min–Max Scaling (Normalization): Min–Max scaling rescales feature values to a fixed range, typically 0 to 1.
+- Standard scaling: Normalizes to have a mean of 0 and variance of 1.
+
+
+
+
 
 
 
