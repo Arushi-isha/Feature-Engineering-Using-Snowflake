@@ -53,7 +53,22 @@ Feature Scaling is the process of transforming numerical features so they share 
 - Min–Max Scaling (Normalization): Min–Max scaling rescales feature values to a fixed range, typically 0 to 1.
 - Standard scaling: Normalizes to have a mean of 0 and variance of 1.
 
+## Stroing Data in Snowflake
+- Snowflake is a cloud-based data warehouse that supports both structured and semi-structured data using its unique storage architecture.
+- Snowflake stores structured data in traditional, optimized relational tables and semi-structured data (like JSON, Avro, XML) within a flexible VARIANT data type, often in a single column, allowing for schema-on-read querying with standard SQL.
+- Data is automatically compressed, encrypted, and divided into micro-partitions, with metadata tracking locations, making it efficient for both types; users can query semi-structured data directly or transform it into structured formats as needed, combining it seamlessly with relational data for powerful analytics. 
 
+## ML Pipelines in Snowflake
+- Connects easily with tools like AWS SageMaker, Azure ML, Databricks, and Python notebooks for model training.
+- With Snowpark, UDFs, and external ML tools like SageMaker or Vertex AI, Snowflake enables seamless model training and deployment.
+- It also supports MLOps through tasks, streams, and feature store capabilities, allowing scalable, secure, end-to-end ML workflows.
+
+## Feature Store
+A Feature Store is a centralized system used to store, manage, and serve ML-ready features for both model training and real-time predictions.
+### why is it needed? 
+- Ensures the same feature logic is used in both training and production.
+- It ensures that feature definitions are consistent, reusable, and version-controlled.
+- Helps with tracking, versioning, monitoring, and managing feature metadata.
 
 
 
